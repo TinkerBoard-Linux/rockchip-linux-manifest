@@ -5,6 +5,76 @@
           review="https://github.com/" />
 
   <default remote="github"
-           revision=""
+           revision="linux5.10-rk3399-debian11"
            sync-c="true" />
+
+  <project path="app/QLauncher" name="TinkerBoard-Linux/rockchip-linux-app-QLauncher" />
+  <project path="app/lvgl_demo" name="TinkerBoard-Linux/rockchip-linux-app-lvgl_demo" />
+  <project path="app/multivideoplayer" name="TinkerBoard-Linux/rockchip-linux-app-multivideoplayer" />
+  <project path="app/qcamera" name="TinkerBoard-Linux/rockchip-linux-app-qcamera" />
+  <project path="app/qfm" name="TinkerBoard-Linux/rockchip-linux-app-new-qfm" />
+  <project path="app/qplayer" name="TinkerBoard-Linux/rockchip-linux-app-qplayer" />
+  <project path="app/qsetting" name="TinkerBoard-Linux/rockchip-linux-app-settings" />
+  <project path="app/rkadk" name="TinkerBoard-Linux/rockchip-linux-bsp-rkadk" />
+  <project path="buildroot" name="TinkerBoard-Linux/rockchip-linux-buildroot" >
+    <linkfile src="build/envsetup.sh" dest="envsetup.sh"/>
+  </project>
+  <project path="debian" name="TinkerBoard-Linux/rockchip-linux-debian" />
+  <project path="device/rockchip" name="TinkerBoard-Linux/rockchip-linux-device-rockchip" >
+    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
+    <linkfile src="common/Makefile" dest="Makefile"/>
+    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
+  </project>
+  <project path="docker_builder" name="TinkerBoard-Linux/DevOps-docker_builder" />
+  <project path="docs" name="TinkerBoard-Linux/rockchip-linux-bsp-docs" />
+  <project path="docs/cn" name="TinkerBoard-Linux/rockchip-linux-bsp-docs-cn" >
+    <linkfile src="Rockchip_Developer_Guide_Linux_Software_CN.pdf" dest="docs/cn/RK3399/Rockchip_Developer_Guide_Linux_Software_CN.pdf"/>
+  </project>
+  <project path="docs/cn/RK3399" name="TinkerBoard-Linux/rockchip-linux-bsp-internal_doc" />
+  <project path="docs/en" name="TinkerBoard-Linux/rockchip-linux-bsp-docs-en" />
+  <project path="docs/en/RK3399" name="TinkerBoard-Linux/rockchip-linux-bsp-internal_doc-en" />
+  <project path="external/alsa-config" name="TinkerBoard-Linux/rockchip-linux-external-alsa-config" />
+  <project path="external/camera_engine_rkisp" name="TinkerBoard-Linux/rockchip-linux-external-camera_engine_rkisp" />
+  <project path="external/chromium" name="TinkerBoard-Linux/rockchip-linux-external-chromium" />
+  <project path="external/common_algorithm" name="TinkerBoard-Linux/rockchip-linux-external-common_algorithm" />
+  <project path="external/drm-cursor" name="TinkerBoard-Linux/rockchip-linux-drm-cursor" />
+  <project path="external/gstreamer-rockchip" name="TinkerBoard-Linux/rockchip-linux-gstreamer-rockchip" />
+  <project path="external/libmali" name="TinkerBoard-Linux/rockchip-linux-libmali" />
+  <project path="external/linux-rga" name="TinkerBoard-Linux/rockchip-linux-linux-rga" />
+  <project path="external/mpp" name="TinkerBoard-Linux/rockchip-linux-mpp" />
+  <project path="external/recovery" name="TinkerBoard-Linux/rockchip-linux-recovery" />
+  <project path="external/rk_pcba_test" name="TinkerBoard-Linux/rockchip-linux-external-rk_pcba_test" />
+  <project path="external/rkscript" name="TinkerBoard-Linux/rockchip-linux-external-rkscript" />
+  <project path="external/rktoolkit" name="TinkerBoard-Linux/rockchip-linux-external-rktoolkit" />
+  <project path="external/rkupdate" name="TinkerBoard-Linux/rockchip-linux-external-rkupdate" />
+  <project path="external/rkwifibt" name="TinkerBoard-Linux/rockchip-linux-external-rkwifibt" />
+  <project path="external/rkwifibt-app" name="TinkerBoard-Linux/rockchip-linux-external-rkwifibt-app" />
+  <project path="external/rockchip-test" name="TinkerBoard-Linux/rockchip-linux-rockchip-test" />
+  <project path="external/rockit" name="TinkerBoard-Linux/rockchip-linux-rockit" />
+  <project path="external/security/bin" name="TinkerBoard-Linux/rockchip-linux-security-bin" />
+  <project path="external/security/librkcrypto" name="TinkerBoard-Linux/rockchip-linux-librkcrypto" />
+  <project path="external/security/rk_tee_user" name="TinkerBoard-Linux/rockchip-linux-system-rk_tee_user" />
+  <project path="external/uac_app" name="TinkerBoard-Linux/rockchip-linux-external-uac_app" />
+  <project path="external/uvc_app" name="TinkerBoard-Linux/rockchip-linux-external-uvc_app" />
+  <project path="external/xserver" name="TinkerBoard-Linux/rockchip-linux-xserver" />
+  <project path="kernel" name="TinkerBoard-Linux/rockchip-linux-kernel" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" name="TinkerBoard-Linux/rockchip-linux-prebuilts-gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" />
+  <project path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" name="TinkerBoard-Linux/rockchip-linux-prebuilts-gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" />
+  <project path="rkbin" name="TinkerBoard-Linux/rockchip-linux-rkbin" />
+  <project path="tools" name="TinkerBoard-Linux/rockchip-linux-tools" />
+  <project path="u-boot" name="TinkerBoard-Linux/rockchip-linux-u-boot" />
+  <project path="yocto/build/conf" name="TinkerBoard-Linux/rockchip-linux-build" />
+  <project path="yocto/meta-asus" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-asus-local" />
+  <project path="yocto/meta-browser" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-browser" />
+  <project path="yocto/meta-clang" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-clang" />
+  <project path="yocto/meta-openembedded" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-openembedded" />
+  <project path="yocto/meta-qt5" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-qt5" />
+  <project path="yocto/meta-rockchip" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-rockchip" />
+  <project path="yocto/poky" name="TinkerBoard-Linux/rockchip-linux-poky" >
+    <linkfile src="scripts" dest="yocto/scripts"/>
+    <linkfile src="bitbake" dest="yocto/bitbake"/>
+    <linkfile src="meta-poky" dest="yocto/meta-poky"/>
+    <linkfile src=".templateconf" dest="yocto/.templateconf"/>
+    <linkfile src="oe-init-build-env" dest="yocto/oe-init-build-env"/>
+  </project>
 </manifest>
