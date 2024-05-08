@@ -8,13 +8,7 @@
            revision="linux5.10-rk3399-debian11"
            sync-c="true" />
 
-  <project path="app/QLauncher" name="TinkerBoard-Linux/rockchip-linux-app-QLauncher" />
   <project path="app/lvgl_demo" name="TinkerBoard-Linux/rockchip-linux-app-lvgl_demo" />
-  <project path="app/multivideoplayer" name="TinkerBoard-Linux/rockchip-linux-app-multivideoplayer" />
-  <project path="app/qcamera" name="TinkerBoard-Linux/rockchip-linux-app-qcamera" />
-  <project path="app/qfm" name="TinkerBoard-Linux/rockchip-linux-app-new-qfm" />
-  <project path="app/qplayer" name="TinkerBoard-Linux/rockchip-linux-app-qplayer" />
-  <project path="app/qsetting" name="TinkerBoard-Linux/rockchip-linux-app-settings" />
   <project path="app/rkadk" name="TinkerBoard-Linux/rockchip-linux-bsp-rkadk" />
   <project path="buildroot" name="TinkerBoard-Linux/rockchip-linux-buildroot" >
     <linkfile src="build/envsetup.sh" dest="envsetup.sh"/>
@@ -31,7 +25,9 @@
     <linkfile src="Rockchip_Developer_Guide_Linux_Software_CN.pdf" dest="docs/cn/RK3399/Rockchip_Developer_Guide_Linux_Software_CN.pdf"/>
   </project>
   <project path="docs/cn/RK3399" name="TinkerBoard-Linux/rockchip-linux-bsp-internal_doc" />
-  <project path="docs/en" name="TinkerBoard-Linux/rockchip-linux-bsp-docs-en" />
+  <project path="docs/en" name="TinkerBoard-Linux/rockchip-linux-bsp-docs-en" >
+    <linkfile src="Rockchip_Developer_Guide_Linux_Software_EN.pdf" dest="docs/en/RK3399/Rockchip_Developer_Guide_Linux_Software_EN.pdf"/>
+  </project>
   <project path="docs/en/RK3399" name="TinkerBoard-Linux/rockchip-linux-bsp-internal_doc-en" />
   <project path="external/alsa-config" name="TinkerBoard-Linux/rockchip-linux-external-alsa-config" />
   <project path="external/camera_engine_rkisp" name="TinkerBoard-Linux/rockchip-linux-external-camera_engine_rkisp" />
