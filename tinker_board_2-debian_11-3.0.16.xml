@@ -14,7 +14,7 @@
     <linkfile src="build/envsetup.sh" dest="envsetup.sh"/>
   </project>
   <project path="debian" name="TinkerBoard-Linux/rockchip-linux-debian" />
-  <project path="device/rockchip" name="TinkerBoard-Linux/rockchip-linux-device-rockchip" >
+  <project path="device/rockchip" name="TinkerBoard-Linux/rockchip-linux-device-rockchip" revision="5b614223724deab0e3a3b6dcd7bd133eaa530ff3" >
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
