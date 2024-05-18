@@ -5,7 +5,7 @@
           review="https://github.com/" />
 
   <default remote="github"
-	  revision="refs/tags/tinker_board_2-debian_11-3.0.16"
+           revision="refs/tags/tinker_board_2-debian_11-3.0.16"
            sync-c="true" />
 
   <project path="app/lvgl_demo" name="TinkerBoard-Linux/rockchip-linux-app-lvgl_demo" />
