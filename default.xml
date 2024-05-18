@@ -66,6 +66,7 @@
   <project path="yocto/meta-openembedded" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-openembedded" />
   <project path="yocto/meta-qt5" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-qt5" />
   <project path="yocto/meta-rockchip" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-rockchip" />
+  <project path="yocto/meta-virtualization" name="TinkerBoard-Linux/rockchip-linux-meta-virtualization" />
   <project path="yocto/poky" name="TinkerBoard-Linux/rockchip-linux-poky" >
     <linkfile src="scripts" dest="yocto/scripts"/>
     <linkfile src="bitbake" dest="yocto/bitbake"/>
