@@ -36,10 +36,18 @@
   <project path="external/dpdk" name="TinkerBoard-Linux/rockchip-linux-external-dpdk" />
   <project path="external/drm-cursor" name="TinkerBoard-Linux/rockchip-linux-drm-cursor" />
   <project path="external/gstreamer-rockchip" name="TinkerBoard-Linux/rockchip-linux-gstreamer-rockchip" />
+  <project path="external/hal" name="TinkerBoard-Linux/rockchip-linux-mcu-hal" >
+    <linkfile src="." dest="rtos/bsp/rockchip/common/hal"/>
+  </project>
+  <project path="external/hal/applications" name="TinkerBoard-Linux/rockchip-linux-mcu-hal-applications" />
+  <project path="external/hal/board" name="TinkerBoard-Linux/rockchip-linux-mcu-hal-board" />
+  <project path="external/hal/middleware" name="TinkerBoard-Linux/rockchip-linux-mcu-hal-middleware" />
+  <project path="external/hal/test" name="TinkerBoard-Linux/rockchip-linux-mcu-hal-test" />
   <project path="external/libmali" name="TinkerBoard-Linux/rockchip-linux-libmali" />
   <project path="external/linux-rga" name="TinkerBoard-Linux/rockchip-linux-linux-rga" />
   <project path="external/mpp" name="TinkerBoard-Linux/rockchip-linux-mpp" />
   <project path="external/recovery" name="TinkerBoard-Linux/rockchip-linux-recovery" />
+  <project path="external/rk_ethercat_release" name="TinkerBoard-Linux/rockchip-linux-external-rk_ethercat_release" />
   <project path="external/rk_pcba_test" name="TinkerBoard-Linux/rockchip-linux-external-rk_pcba_test" />
   <project path="external/rknn-toolkit2" name="TinkerBoard-Linux/rockchip-linux-rknn-toolkit2" />
   <project path="external/rknpu2" name="TinkerBoard-Linux/rockchip-linux-rknpu2" />
@@ -59,16 +67,24 @@
   <project path="kernel" name="TinkerBoard-Linux/rockchip-linux-kernel" />
   <project path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" name="TinkerBoard-Linux/rockchip-linux-prebuilts-gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" />
   <project path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" name="TinkerBoard-Linux/rockchip-linux-prebuilts-gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" />
+  <project path="prebuilts/gcc/linux-x86/arm/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux" name="TinkerBoard-Linux/rockchip-linux-prebuilts-gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux" />
   <project path="rkbin" name="TinkerBoard-Linux/rockchip-linux-rkbin" />
+  <project path="rtos" name="TinkerBoard-Linux/rockchip-linux-rtos-rt-thread-rt-thread" />
+  <project path="rtos/Rockchip-docs" name="TinkerBoard-Linux/rockchip-linux-rtos-rt-thread-Rockchip-docs" />
+  <project path="rtos/applications/rtthread-apps" name="TinkerBoard-Linux/rockchip-linux-rtos-rt-thread-rtthread-apps" />
+  <project path="rtos/applications/wearable" name="TinkerBoard-Linux/rockchip-linux-rtos-rt-thread-wearable" />
+  <project path="rtos/bsp/rockchip/pisces" name="TinkerBoard-Linux/rockchip-linux-rtos-rt-thread-bsp-rockchip-pisces" />
+  <project path="rtos/third_party/audio/audio_server/source" name="TinkerBoard-Linux/rockchip-linux-rtos-components-audio" />
   <project path="tools" name="TinkerBoard-Linux/rockchip-linux-tools" />
   <project path="u-boot" name="TinkerBoard-Linux/rockchip-linux-u-boot" />
   <project path="yocto/build/conf" name="TinkerBoard-Linux/rockchip-linux-build" />
   <project path="yocto/meta-asus" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-asus-local" />
   <project path="yocto/meta-browser" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-browser" />
   <project path="yocto/meta-clang" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-clang" />
+  <project path="yocto/meta-lts-mixins" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-lts-mixins" />
   <project path="yocto/meta-openembedded" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-openembedded" />
-  <project path="yocto/meta-qt5" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-qt5" />
   <project path="yocto/meta-rockchip" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-rockchip" />
+  <project path="yocto/meta-virtualization" name="TinkerBoard-Linux/rockchip-linux-yocto-meta-virtualization" />
   <project path="yocto/poky" name="TinkerBoard-Linux/rockchip-linux-poky" >
     <linkfile src="scripts" dest="yocto/scripts"/>
     <linkfile src="bitbake" dest="yocto/bitbake"/>
