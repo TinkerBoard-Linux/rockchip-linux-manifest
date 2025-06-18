@@ -22,13 +22,13 @@
   </project>
   <project path="buildroot/dl" name="TinkerBoard-Linux/rockchip-linux-buildroot-dl" revision="72dee48c73158c00110f16def853131561e40aae" />
   <project path="debian" name="TinkerBoard-Linux/rockchip-linux-rk-rootfs-build" revision="28fde0689b4cf213c1f94930910c4fb2eff7bd8d" />
-  <project path="device/rockchip" name="TinkerBoard-Linux/rockchip-linux-device-rockchip" >
+  <project path="device/rockchip" name="TinkerBoard-Linux/rockchip-linux-device-rockchip" revision="40afd9160c38a07f14995532df6e442e4a396156" >
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.target_product" src="rk3399pro"/>
   </project>
-  <project path="docker_builder" name="TinkerBoard-Linux/DevOps-docker_builder" revision="55d9268512a4e6deadb93ff1e9b7ecd8b3ad680b" />
+  <project path="docker_builder" name="TinkerBoard-Linux/DevOps-docker_builder" revision="52561b6063f139bde46b109f5e2e43bf819bf306" />
   <project path="docs" name="TinkerBoard-Linux/rockchip-linux-docs" />
   <project path="docs/.Socs" name="TinkerBoard-Linux/rockchip-linux-internal_doc" >
     <linkfile dest="docs/RK3399PRO" src="RK3399PRO"/>
